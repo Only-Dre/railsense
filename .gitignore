@@ -1,4 +1,7 @@
-.env
+# Environment and local credentials; keep example templates
+**/.env
+**/.env.*
+!**/.env.example
 
 node_modules/
 
@@ -12,3 +15,14 @@ node_modules/
 # Python
 __pycache__/
 .venv/
+venv/
+*.py[cod]
+
+# Logs and operating system files
+**/logs/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local firmware configuration
+/hardware/include/secrets.h
